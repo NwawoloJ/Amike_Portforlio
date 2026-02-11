@@ -3,28 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
+    <script>
       src="https://kit.fontawesome.com/21a341fd73.js"
       crossorigin="anonymous"
-    ></script>
+    </script>
+    <link rel="stylesheet" href="./pages/styles/main.css" />
     <title>John Portfolio</title>
   </head>
   <body>
     <!-- header part -->
-    <header>
+    <header id="top">
       <div>
         <img src="./images/logo.png" alt="amike Portfolio" />
       </div>
 
       <nav>
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Skills</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#skills">Skills</a></li>
         </ul>
       </nav>
     </header>
@@ -32,10 +33,11 @@
     <!-- main part -->
     <main>
       <!--home section -->
-      <section id="Home">
-        <!-- left side-->
+      <section id="home">
+        <!-- left side--
+
         <div>
-          <!-- social icon-->
+          <!-- social icon -->
           <div>
             <div class="social"><i class="fa-brands fa-facebook"></i></div>
             <div class="social"><i class="fa-brands fa-twitter"></i></div>
@@ -58,12 +60,14 @@
 
         <!-- right side -->
         <div>
-          <img src="./images/man-01.png" alt="Johnathan Doe" />
+          <a href="https://www.google.com" target="_blank">
+            <img src="./images/man-01.png" alt="Johnathan Doe" />
+          </a>
         </div>
       </section>
 
       <!-- services section -->
-      <section id="Services">
+      <section id="services">
         <!-- top part-->
         <div>
           <p>service</p>
@@ -111,36 +115,288 @@
           <div class="card">
             <i class="fa-brands fa-apple"></i>
             <h3>App Developing</h3>
-            <p>Custom mobile applications for iOS and Android platforms to help
-              you reach your audience on the go.</p>
+            <p>
+              Custom mobile applications for iOS and Android platforms to help
+              you reach your audience on the go.
+            </p>
           </div>
           <div class="card">
             <i class="fa-brands fa-yoast"></i>
             <h3>SEO Expert</h3>
-            <p>SEO services to improve your website's visibility and ranking on
+            <p>
+              SEO services to improve your website's visibility and ranking on
               search engines, driving more traffic and potential customers to
-              your site.</p>
+              your site.
+            </p>
           </div>
         </div>
       </section>
 
       <!-- about section -->
-      <section id="About"></section>
+      <section id="about">
+        <!-- top part-->
+        <div>
+          <h1>About Me</h1>
+          <p>
+            I'm John Doe, a passionate web developer with over 10 years of
+            experience in creating stunning websites and applications. I
+            specialize in front-end development, using the latest technologies
+            to bring your ideas to life. My goal is to deliver high-quality,
+            user-friendly solutions that exceed your expectations.
+          </p>
+        </div>
+
+        <!-- bottom part-->
+        <div>
+          <div>
+            <img src="./images/john doe.png" alt="John Doe" />
+          </div>
+          <div>
+            <h4>Hi There</h4>
+            <p>
+              I'm John Doe, a passionate web developer with over 10 years of
+              experience in creating stunning websites and applications.</br>
+            </p>
+            <p>
+              I specialize in front-end development, using the latest
+              technologies to bring your ideas to life. My goal is to deliver
+              high-quality, user-friendly solutions that exceed your
+              expectations.</br>
+            </p>
+          </div>
+          <div>
+            <table cellpadding="10">
+                    <tr>
+                        <td>
+                            <strong>Name:</strong><br>
+                            Jonathan Doe
+                        </td>
+                        <td>
+                            <strong>Phone:</strong><br>
+                            +1 023 454 345
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <strong>Email:</strong><br>
+                            example@domain.com
+                        </td>
+                        <td>
+                            <strong>LinkedIn:</strong><br>
+                            Jonathan_123
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+          </div>
+          <div>
+            <p>I'M EXPERT ON</p>
+            <h1>Let's Work Together</h1>
+            <p>
+              I'm always excited to collaborate on new projects and help bring
+              your ideas to life. Whether you need a stunning website, a
+              powerful web application, or engaging content, I'm here to help.
+              Let's work together to create something amazing!
+            </p>
+            <button>Hire Me Now</button>
+          </div>
+          <div>
+             <p>Node JS</p>
+             <progress value="88" max="100"></progress>
+             <span>88%</span>
+
+             <br><br>
+
+             <p>Python</p>
+             <progress value="81" max="100"></progress>
+             <span>81%</span>
+
+             <br><br>
+
+             <p>Laravel</p>
+             <progress value="70" max="100"></progress>
+             <span>70%</span>
+
+             <br><br>
+
+             <p>SEO</p>
+             <progress value="90" max="100"></progress>
+             <span>90%</span>
+
+          </div>
+        </div>
+      </section>
+
 
       <!-- portfolio section -->
-      <section id="Portfolio"></section>
+      <section id="portfolio">
+        <!-- top part-->
+        <div>
+          <h1>Portfolio Showcase</h1>
+          <p>We’re a WordPress Theme Development company . With more than ten years of knowledge and expertise.</p>
+        </div>
+        <!-- middle part-->
+        <div>
+          <ul>
+            <li><a href="">All Work</a></li>
+            <li><a href="">Art Direction</a></li>
+            <li><a href="">Branding</a></li>
+            <li><a href="">Design</a></li>
+            <li><a href="">Web</a></li>
+        </div>
+        <!-- bottom part-->
+        <div>
+          <div>
+            <img src="./images/jeremy-perkins-UgNjyPkphtU-unsplash.jpg" alt="portfolio-01" />
+          </div>
+          <div>
+            <img src="./images/colin-carter.jpg" alt="portfolio-02" />
+          </div>
+          <div>
+            <img src="./images/gadgets.jpg" alt="portfolio-03" />
+          </div>
+          <div>
+            <img src="./images/julian-o-hayon.jpg" alt="portfolio-04" />
+          </div>
+          <div>
+            <img src="./images/kui-ye-chen.jpg" alt="portfolio-05" />
+          </div>
+          <div>
+            <img src="./images/mukul-wadhwa.jpg" alt="portfolio-06" />
+          </div>
+          <div>
+            <img src="./images/typewritten.jpg" alt="portfolio-07" />
+          </div>
+        </div>
+      </section>
 
+      <!-- blog section -->
+      <section id="blog">
+        <!-- top part-->
+        <div>
+           <p>LATEST POSTS</p>
+        <h1>Latest Blog</h1>
+        <p>Check out our latest blog posts and stay updated with the newest trends in web development and design.</p>
+        </div>
+        <!-- bottom part-->
+        <div>
+           <article>
+                <figure>
+                    <img src="./images/image1.jpg" alt="Portrait with blue light effect" width="300">
+                </figure>
+
+                <p>
+                    By <strong>admin</strong> |
+                    <time datetime="2026-02-04">Tuesday</time> |
+                    3 comments
+                </p>
+
+                <h3>Ten Secrets You Will Not Want To Know</h3>
+
+                <p>
+                    <a href="#">Read More</a>
+                </p>
+            </article>
+
+            <hr>
+
+              <article>
+                <figure>
+                    <img src="./images/image2.jpg" alt="Explosion of smoke and light" width="300">
+                </figure>
+
+                <p>
+                    By <strong>admin</strong> |
+                    <time datetime="2026-02-05">Wednesday</time> |
+                    3 comments
+                </p>
+
+                <h3>You’ve gotta dance like there’s nobody watching</h3>
+
+                <p>
+                    <a href="#">Read More</a>
+                </p>
+            </article>
+
+            <hr>
+
+             <article>
+                <figure>
+                    <img src="./images/image3.jpg" alt="Red and orange smoke effect" width="300">
+                </figure>
+
+                <p>
+                    By <strong>admin</strong> |
+                    <time datetime="2026-02-07">Saturday</time> |
+                    3 comments
+                </p>
+
+                <h3>I must explain to you how all this mistaken idea</h3>
+
+                <p>
+                    <a href="#">Read More</a>
+                </p>
+            </article>
+
+        </div>
+
+      </section>
+
+      <!-- contact section -->
+      <section id="contact">
+        <!-- top part-->
+         <div>
+          <p>HAVE ANY QUERY?</p>
+          <h1>Contact Me</h1>
+          <p>Feel free to reach out to me for any inquiries or collaborations.</p>
+         </div>
+         <!-- middle part -->
+          <div>
+             <p>
+        <strong>Locate us:</strong><br> King Street, Melbourne, Victoria<br>
+        <strong>Office:</strong><br> +61 3 4567 89<br>
+        <strong>Get in touch:</strong><br> contact@example.com
+    </p>
+          </div>
+          <div>
+            <form action="">
+              <input type="text" name="name" placeholder="Your Name" required><br><br>
+              <input type="email" name="email" placeholder="Your Email" required><br><br>
+              <input type="text" name="subject" placeholder="Subject" required><br><br>
+              <textarea name="message" placeholder="Your Message" required></textarea><br><br>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+      </section>
+      
       <!-- skills section -->
       <section id="Skills"></section>
 
-      <!-- contact section -->
-      <section id="Contact"></section>
-
-      <!-- blog section -->
-      <section id="Blog"></section>
     </main>
 
     <!-- footer part -->
-    <footer></footer>
+    <footer>
+      <!-- top part-->
+      <div>
+        <img src="./images/logo.png" alt="Logo">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci- didunt ut labore et dolore magna aliqua. </p>
+      </div>
+      <!-- middle part-->
+       <div>
+         <div class="social"><i class="fa-brands fa-facebook"></i></div>
+            <div class="social"><i class="fa-brands fa-twitter"></i></div>
+            <div class="social"><i class="fa-brands fa-pinterest"></i></div>
+            <div class="social"><i class="fa-brands fa-instagram"></i></div>
+            <div class="social"><i class="fa-brands fa-behance"></i></div>
+       </div>
+       <div>
+        <p>&copy; 2026 John Doe. All rights reserved by ThemeBing.</p>
+       </div>
+      <a href="#top">Go to Top</a>
+    </footer>
   </body>
 </html>
